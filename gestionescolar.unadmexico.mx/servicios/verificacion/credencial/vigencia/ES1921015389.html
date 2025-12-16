@@ -45,7 +45,7 @@
 	  <tr>
 		<th colspan="3" style="text-align:center;" width="100%">
 		  Identificación Estudiante<br>
-		  <small id="hora-actual"></small>
+		  <small id="hora-consulta"></small>
 		</th>
 	  </tr>
 
@@ -54,7 +54,7 @@
 		  <img src="../../../images/IMG.jpg" style="width:150px;">
 		</td>
 		<td align="right" width="40%">Matrícula:</td>
-		<th width="40%" align="left">ES1921015389</th>
+		<th align="left" width="40%">ES1921015389</th>
 	  </tr>
 
 	  <tr>
@@ -69,7 +69,7 @@
 
 	  <tr>
 		<td align="right">División:</td>
-		<th align="left">Ciencias Sociales y Administrativas</th>
+		<th align="left">Ciencias Sociales</th>
 	  </tr>
 
 	  <tr>
@@ -85,24 +85,15 @@
 <script src="../../../../../framework-gb.cdn.gob.mx/gobmx.js"></script>
 
 <script>
-function actualizarHora() {
+(function () {
   const ahora = new Date();
-
-  const fecha =
-    ahora.getFullYear() + "-" +
-    String(ahora.getMonth() + 1).padStart(2, "0") + "-" +
-    String(ahora.getDate()).padStart(2, "0");
-
   const hora =
     String(ahora.getHours()).padStart(2, "0") + ":" +
     String(ahora.getMinutes()).padStart(2, "0") + ":" +
     String(ahora.getSeconds()).padStart(2, "0");
 
-  document.getElementById("hora-actual").textContent = fecha + " " + hora;
-}
-
-setInterval(actualizarHora, 1000);
-actualizarHora();
+  document.getElementById("hora-consulta").textContent = hora;
+})();
 </script>
 
 </body>
