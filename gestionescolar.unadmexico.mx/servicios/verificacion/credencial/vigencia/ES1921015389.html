@@ -45,7 +45,7 @@
 	  <tr>
 		<th colspan="3" style="text-align:center;" width="100%">
 		  Identificación Estudiante<br>
-		  <small id="hora-consulta"></small>
+		  <small id="fecha-hora-consulta"></small>
 		</th>
 	  </tr>
 
@@ -87,12 +87,19 @@
 <script>
 (function () {
   const ahora = new Date();
+
+  const fecha =
+    ahora.getFullYear() + "-" +
+    String(ahora.getMonth() + 1).padStart(2, "0") + "-" +
+    String(ahora.getDate()).padStart(2, "0");
+
   const hora =
     String(ahora.getHours()).padStart(2, "0") + ":" +
     String(ahora.getMinutes()).padStart(2, "0") + ":" +
     String(ahora.getSeconds()).padStart(2, "0");
 
-  document.getElementById("hora-consulta").textContent = hora;
+  document.getElementById("fecha-hora-consulta").textContent =
+    fecha + " " + hora;
 })();
 </script>
 
