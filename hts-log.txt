@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 14 Dec 2025 00:44:42 at https://gestionescolar.unadmexico.mx/servicios/verificacion/credencial/vigencia/31971235cda3dcfc14f0698b08252c0b4e78d5331a5f1bc +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "es, en, *" https://gestionescolar.unadmexico.mx/servicios/verificacion/credencial/vigencia/31971235cda3dcfc14f0698b08252c0b4e78d5331a5f1bc -O1 "C:\Mis lugares Web\CREDENCIAL" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:44:43	Warning: 	Found for https://gestionescolar.unadmexico.mx/robots.txt
+00:44:43	Warning: 	File has moved from https://gestionescolar.unadmexico.mx/robots.txt to https://sige.unadmexico.mx/banner_4.png
+00:44:47	Error: 	"Not Found" (404) at link https://framework-gb.cdn.gob.mx/assets/images/home_picture.jpg (from https://framework-gb.cdn.gob.mx/assets/styles/main.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 seconds : 15 links scanned, 12 files written (442590 bytes overall) [266654 bytes received at 53330 bytes/sec], 221605 bytes transferred using HTTP compression in 3 files, ratio 18%, 5.0 requests per connection
+(1 errors, 2 warnings, 0 messages)
